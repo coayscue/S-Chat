@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1296D41A78AD5F000F1C22 /* Screen Shot 2015-01-27 at 9.25.07 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1296D31A78AD5F000F1C22 /* Screen Shot 2015-01-27 at 9.25.07 PM.png */; };
+		CA1E62C91A51EACF001A14A9 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E62C81A51EACF001A14A9 /* MessagingViewController.swift */; };
+		CA1E62DC1A535F18001A14A9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1E62DB1A535F17001A14A9 /* MessageUI.framework */; };
+		CA1E62DE1A535F7E001A14A9 /* SendChatInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E62DD1A535F7E001A14A9 /* SendChatInfoViewController.swift */; };
+		CA1E62EA1A54A823001A14A9 /* NSBubbleData.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E62E01A54A823001A14A9 /* NSBubbleData.m */; };
+		CA1E62EB1A54A823001A14A9 /* UIBubbleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E62E21A54A823001A14A9 /* UIBubbleTableView.m */; };
+		CA1E62EC1A54A823001A14A9 /* UIBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E62E41A54A823001A14A9 /* UIBubbleTableViewCell.m */; };
+		CA1E62ED1A54A823001A14A9 /* UIBubbleHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E62E61A54A823001A14A9 /* UIBubbleHeaderTableViewCell.m */; };
+		CA1E62EE1A54A823001A14A9 /* UIBubbleTypingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E62E81A54A823001A14A9 /* UIBubbleTypingTableViewCell.m */; };
+		CA40F81E1A670BF200380A53 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA40F81A1A670BF200380A53 /* bubbleMine@2x.png */; };
+		CA40F81F1A670BF200380A53 /* bubble2Someon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA40F81B1A670BF200380A53 /* bubble2Someon@2x.png */; };
+		CA40F8201A670BF200380A53 /* bubbleSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA40F81C1A670BF200380A53 /* bubbleSomeone@2x.png */; };
+		CA40F8211A670BF200380A53 /* bubble2Mine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA40F81D1A670BF200380A53 /* bubble2Mine@2x.png */; };
+		CA40F8231A68B2DF00380A53 /* selectionDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA40F8221A68B2DF00380A53 /* selectionDot@3x.png */; };
+		CA478A201A7493B0006600B2 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = CA478A1F1A7493B0006600B2 /* UIImage+ImageEffects.m */; };
+		CA478A221A75D65D006600B2 /* grayGround.png in Resources */ = {isa = PBXBuildFile; fileRef = CA478A211A75D65D006600B2 /* grayGround.png */; };
+		CA84985C1A4381DC00A34D5C /* EnterChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84985B1A4381DC00A34D5C /* EnterChatViewController.swift */; };
+		CA84985F1A462DDC00A34D5C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84985D1A462DDC00A34D5C /* Bolts.framework */; };
+		CA8498601A462DDC00A34D5C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84985E1A462DDC00A34D5C /* Parse.framework */; };
+		CA8498621A46318D00A34D5C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498611A46318D00A34D5C /* AudioToolbox.framework */; };
+		CA8498641A46319400A34D5C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498631A46319400A34D5C /* CFNetwork.framework */; };
+		CA8498661A46319E00A34D5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498651A46319E00A34D5C /* CoreGraphics.framework */; };
+		CA8498681A4631A600A34D5C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498671A4631A600A34D5C /* CoreLocation.framework */; };
+		CA84986A1A4631B700A34D5C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498691A4631B700A34D5C /* MobileCoreServices.framework */; };
+		CA84986C1A4631BD00A34D5C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84986B1A4631BD00A34D5C /* QuartzCore.framework */; };
+		CA84986E1A4631D500A34D5C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84986D1A4631D500A34D5C /* Security.framework */; };
+		CA8498701A4631E800A34D5C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84986F1A4631E800A34D5C /* StoreKit.framework */; };
+		CA8498721A4631F100A34D5C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498711A4631F100A34D5C /* SystemConfiguration.framework */; };
+		CA8498741A46320400A34D5C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498731A46320400A34D5C /* libz.dylib */; };
+		CA8498761A46321400A34D5C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8498751A46321400A34D5C /* libsqlite3.dylib */; };
+		CA84987F1A47633800A34D5C /* CreateChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84987E1A47633800A34D5C /* CreateChatViewController.swift */; };
+		CA8C258C1A422D9800FDEFED /* LockMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C258B1A422D9800FDEFED /* LockMenuViewController.swift */; };
+		CA8C25901A42393800FDEFED /* LockScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C258F1A42393800FDEFED /* LockScreenViewController.swift */; };
+		CA9669301A40F7C9004F794B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96692F1A40F7C9004F794B /* AppDelegate.swift */; };
+		CA9669351A40F7C9004F794B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9669331A40F7C9004F794B /* Main.storyboard */; };
+		CA96693A1A40F7C9004F794B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9669381A40F7C9004F794B /* LaunchScreen.xib */; };
+		CA9669461A40F7C9004F794B /* chatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9669451A40F7C9004F794B /* chatTests.swift */; };
+		CA9680791A4B5C40001B9D9B /* S_Quack_Development.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = CA9680781A4B5C40001B9D9B /* S_Quack_Development.mobileprovision */; };
+		CAB95EE81A55D1C0006C15D8 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB95EE71A55D1C0006C15D8 /* NavController.swift */; };
+		CAC9DE781A4108F9001ED668 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC9DE771A4108F9001ED668 /* ChatsViewController.swift */; };
+		CAE304571A5F632500F1AF2F /* camera1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE304561A5F632500F1AF2F /* camera1@2x.png */; };
+		CAE3045D1A60B0C700F1AF2F /* lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE3045C1A60B0C700F1AF2F /* lock@3x.png */; };
+		CAF4AA511A70C6F20071B868 /* Media2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF4AA501A70C6F20071B868 /* Media2.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9669401A40F7C9004F794B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9669221A40F7C8004F794B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9669291A40F7C8004F794B;
+			remoteInfo = chat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA1296D31A78AD5F000F1C22 /* Screen Shot 2015-01-27 at 9.25.07 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-01-27 at 9.25.07 PM.png"; sourceTree = "<group>"; };
+		CA1E62C81A51EACF001A14A9 /* MessagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		CA1E62DB1A535F17001A14A9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CA1E62DD1A535F7E001A14A9 /* SendChatInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendChatInfoViewController.swift; sourceTree = "<group>"; };
+		CA1E62DF1A54A823001A14A9 /* NSBubbleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSBubbleData.h; path = chat/NSBubbleData.h; sourceTree = "<group>"; };
+		CA1E62E01A54A823001A14A9 /* NSBubbleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBubbleData.m; path = chat/NSBubbleData.m; sourceTree = "<group>"; };
+		CA1E62E11A54A823001A14A9 /* UIBubbleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTableView.h; path = chat/UIBubbleTableView.h; sourceTree = "<group>"; };
+		CA1E62E21A54A823001A14A9 /* UIBubbleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleTableView.m; path = chat/UIBubbleTableView.m; sourceTree = "<group>"; };
+		CA1E62E31A54A823001A14A9 /* UIBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTableViewCell.h; path = chat/UIBubbleTableViewCell.h; sourceTree = "<group>"; };
+		CA1E62E41A54A823001A14A9 /* UIBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleTableViewCell.m; path = chat/UIBubbleTableViewCell.m; sourceTree = "<group>"; };
+		CA1E62E51A54A823001A14A9 /* UIBubbleHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleHeaderTableViewCell.h; path = chat/UIBubbleHeaderTableViewCell.h; sourceTree = "<group>"; };
+		CA1E62E61A54A823001A14A9 /* UIBubbleHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleHeaderTableViewCell.m; path = chat/UIBubbleHeaderTableViewCell.m; sourceTree = "<group>"; };
+		CA1E62E71A54A823001A14A9 /* UIBubbleTypingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTypingTableViewCell.h; path = chat/UIBubbleTypingTableViewCell.h; sourceTree = "<group>"; };
+		CA1E62E81A54A823001A14A9 /* UIBubbleTypingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleTypingTableViewCell.m; path = chat/UIBubbleTypingTableViewCell.m; sourceTree = "<group>"; };
+		CA1E62E91A54A823001A14A9 /* UIBubbleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTableViewDataSource.h; path = chat/UIBubbleTableViewDataSource.h; sourceTree = "<group>"; };
+		CA40F81A1A670BF200380A53 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
+		CA40F81B1A670BF200380A53 /* bubble2Someon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble2Someon@2x.png"; sourceTree = "<group>"; };
+		CA40F81C1A670BF200380A53 /* bubbleSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone@2x.png"; sourceTree = "<group>"; };
+		CA40F81D1A670BF200380A53 /* bubble2Mine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble2Mine@2x.png"; sourceTree = "<group>"; };
+		CA40F8221A68B2DF00380A53 /* selectionDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectionDot@3x.png"; sourceTree = "<group>"; };
+		CA478A1E1A7493B0006600B2 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		CA478A1F1A7493B0006600B2 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		CA478A211A75D65D006600B2 /* grayGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayGround.png; sourceTree = "<group>"; };
+		CA84985B1A4381DC00A34D5C /* EnterChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterChatViewController.swift; sourceTree = "<group>"; };
+		CA84985D1A462DDC00A34D5C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CA84985E1A462DDC00A34D5C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CA8498611A46318D00A34D5C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CA8498631A46319400A34D5C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CA8498651A46319E00A34D5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA8498671A4631A600A34D5C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CA8498691A4631B700A34D5C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CA84986B1A4631BD00A34D5C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA84986D1A4631D500A34D5C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CA84986F1A4631E800A34D5C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CA8498711A4631F100A34D5C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA8498731A46320400A34D5C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CA8498751A46321400A34D5C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CA8498791A46341A00A34D5C /* chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chat-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA84987E1A47633800A34D5C /* CreateChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChatViewController.swift; sourceTree = "<group>"; };
+		CA8C258B1A422D9800FDEFED /* LockMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LockMenuViewController.swift; path = ../LockMenuViewController.swift; sourceTree = "<group>"; };
+		CA8C258F1A42393800FDEFED /* LockScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockScreenViewController.swift; sourceTree = "<group>"; };
+		CA96692A1A40F7C8004F794B /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA96692E1A40F7C8004F794B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA96692F1A40F7C9004F794B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA9669341A40F7C9004F794B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA9669391A40F7C9004F794B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA96693F1A40F7C9004F794B /* chatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9669441A40F7C9004F794B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9669451A40F7C9004F794B /* chatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTests.swift; sourceTree = "<group>"; };
+		CA9680781A4B5C40001B9D9B /* S_Quack_Development.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = S_Quack_Development.mobileprovision; sourceTree = "<group>"; };
+		CAB95EE71A55D1C0006C15D8 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		CAC9DE771A4108F9001ED668 /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatsViewController.swift; path = ../ChatsViewController.swift; sourceTree = "<group>"; };
+		CAE304561A5F632500F1AF2F /* camera1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera1@2x.png"; sourceTree = "<group>"; };
+		CAE3045C1A60B0C700F1AF2F /* lock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@3x.png"; sourceTree = "<group>"; };
+		CAF4AA501A70C6F20071B868 /* Media2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media2.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9669271A40F7C8004F794B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E62DC1A535F18001A14A9 /* MessageUI.framework in Frameworks */,
+				CA8498761A46321400A34D5C /* libsqlite3.dylib in Frameworks */,
+				CA8498741A46320400A34D5C /* libz.dylib in Frameworks */,
+				CA8498721A4631F100A34D5C /* SystemConfiguration.framework in Frameworks */,
+				CA8498701A4631E800A34D5C /* StoreKit.framework in Frameworks */,
+				CA84986E1A4631D500A34D5C /* Security.framework in Frameworks */,
+				CA84986C1A4631BD00A34D5C /* QuartzCore.framework in Frameworks */,
+				CA84986A1A4631B700A34D5C /* MobileCoreServices.framework in Frameworks */,
+				CA8498681A4631A600A34D5C /* CoreLocation.framework in Frameworks */,
+				CA8498661A46319E00A34D5C /* CoreGraphics.framework in Frameworks */,
+				CA8498641A46319400A34D5C /* CFNetwork.framework in Frameworks */,
+				CA8498621A46318D00A34D5C /* AudioToolbox.framework in Frameworks */,
+				CA8498601A462DDC00A34D5C /* Parse.framework in Frameworks */,
+				CA84985F1A462DDC00A34D5C /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA96693C1A40F7C9004F794B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1296D21A78A7B8000F1C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E62DB1A535F17001A14A9 /* MessageUI.framework */,
+				CA8498751A46321400A34D5C /* libsqlite3.dylib */,
+				CA8498731A46320400A34D5C /* libz.dylib */,
+				CA8498711A4631F100A34D5C /* SystemConfiguration.framework */,
+				CA84986F1A4631E800A34D5C /* StoreKit.framework */,
+				CA84986D1A4631D500A34D5C /* Security.framework */,
+				CA84986B1A4631BD00A34D5C /* QuartzCore.framework */,
+				CA8498691A4631B700A34D5C /* MobileCoreServices.framework */,
+				CA8498671A4631A600A34D5C /* CoreLocation.framework */,
+				CA8498651A46319E00A34D5C /* CoreGraphics.framework */,
+				CA8498631A46319400A34D5C /* CFNetwork.framework */,
+				CA8498611A46318D00A34D5C /* AudioToolbox.framework */,
+				CA84985D1A462DDC00A34D5C /* Bolts.framework */,
+				CA84985E1A462DDC00A34D5C /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1E62DA1A51F8CD001A14A9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E62DF1A54A823001A14A9 /* NSBubbleData.h */,
+				CA1E62E01A54A823001A14A9 /* NSBubbleData.m */,
+				CA1E62E11A54A823001A14A9 /* UIBubbleTableView.h */,
+				CA1E62E21A54A823001A14A9 /* UIBubbleTableView.m */,
+				CA1E62E31A54A823001A14A9 /* UIBubbleTableViewCell.h */,
+				CA1E62E41A54A823001A14A9 /* UIBubbleTableViewCell.m */,
+				CA1E62E51A54A823001A14A9 /* UIBubbleHeaderTableViewCell.h */,
+				CA1E62E61A54A823001A14A9 /* UIBubbleHeaderTableViewCell.m */,
+				CA1E62E71A54A823001A14A9 /* UIBubbleTypingTableViewCell.h */,
+				CA1E62E81A54A823001A14A9 /* UIBubbleTypingTableViewCell.m */,
+				CA1E62E91A54A823001A14A9 /* UIBubbleTableViewDataSource.h */,
+				CA478A1E1A7493B0006600B2 /* UIImage+ImageEffects.h */,
+				CA478A1F1A7493B0006600B2 /* UIImage+ImageEffects.m */,
+			);
+			name = src;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CA7676DE1A59E7A90081DB4B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CA1296D31A78AD5F000F1C22 /* Screen Shot 2015-01-27 at 9.25.07 PM.png */,
+				CA40F81A1A670BF200380A53 /* bubbleMine@2x.png */,
+				CA40F81B1A670BF200380A53 /* bubble2Someon@2x.png */,
+				CA40F81C1A670BF200380A53 /* bubbleSomeone@2x.png */,
+				CA40F81D1A670BF200380A53 /* bubble2Mine@2x.png */,
+				CAE3045C1A60B0C700F1AF2F /* lock@3x.png */,
+				CA40F8221A68B2DF00380A53 /* selectionDot@3x.png */,
+				CAE304561A5F632500F1AF2F /* camera1@2x.png */,
+				CA478A211A75D65D006600B2 /* grayGround.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CA9669211A40F7C8004F794B = {
+			isa = PBXGroup;
+			children = (
+				CA96692C1A40F7C8004F794B /* chat */,
+				CA9669421A40F7C9004F794B /* chatTests */,
+				CA96692B1A40F7C8004F794B /* Products */,
+				CA1296D21A78A7B8000F1C22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA96692B1A40F7C8004F794B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA96692A1A40F7C8004F794B /* chat.app */,
+				CA96693F1A40F7C9004F794B /* chatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA96692C1A40F7C8004F794B /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				CA9669331A40F7C9004F794B /* Main.storyboard */,
+				CA96692F1A40F7C9004F794B /* AppDelegate.swift */,
+				CAC9DE771A4108F9001ED668 /* ChatsViewController.swift */,
+				CA8C258F1A42393800FDEFED /* LockScreenViewController.swift */,
+				CA8C258B1A422D9800FDEFED /* LockMenuViewController.swift */,
+				CA84987E1A47633800A34D5C /* CreateChatViewController.swift */,
+				CA84985B1A4381DC00A34D5C /* EnterChatViewController.swift */,
+				CA1E62C81A51EACF001A14A9 /* MessagingViewController.swift */,
+				CA1E62DD1A535F7E001A14A9 /* SendChatInfoViewController.swift */,
+				CAB95EE71A55D1C0006C15D8 /* NavController.swift */,
+				CAF4AA501A70C6F20071B868 /* Media2.xcassets */,
+				CA9669381A40F7C9004F794B /* LaunchScreen.xib */,
+				CA96692D1A40F7C8004F794B /* Supporting Files */,
+				CA8498791A46341A00A34D5C /* chat-Bridging-Header.h */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		CA96692D1A40F7C8004F794B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7676DE1A59E7A90081DB4B /* images */,
+				CA1E62DA1A51F8CD001A14A9 /* src */,
+				CA9680781A4B5C40001B9D9B /* S_Quack_Development.mobileprovision */,
+				CA96692E1A40F7C8004F794B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA9669421A40F7C9004F794B /* chatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9669451A40F7C9004F794B /* chatTests.swift */,
+				CA9669431A40F7C9004F794B /* Supporting Files */,
+			);
+			path = chatTests;
+			sourceTree = "<group>";
+		};
+		CA9669431A40F7C9004F794B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA9669441A40F7C9004F794B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9669291A40F7C8004F794B /* chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9669491A40F7C9004F794B /* Build configuration list for PBXNativeTarget "chat" */;
+			buildPhases = (
+				CA9669261A40F7C8004F794B /* Sources */,
+				CA9669271A40F7C8004F794B /* Frameworks */,
+				CA9669281A40F7C8004F794B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chat;
+			productName = chat;
+			productReference = CA96692A1A40F7C8004F794B /* chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA96693E1A40F7C9004F794B /* chatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA96694C1A40F7C9004F794B /* Build configuration list for PBXNativeTarget "chatTests" */;
+			buildPhases = (
+				CA96693B1A40F7C9004F794B /* Sources */,
+				CA96693C1A40F7C9004F794B /* Frameworks */,
+				CA96693D1A40F7C9004F794B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9669411A40F7C9004F794B /* PBXTargetDependency */,
+			);
+			name = chatTests;
+			productName = chatTests;
+			productReference = CA96693F1A40F7C9004F794B /* chatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA9669221A40F7C8004F794B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = coayscue;
+				TargetAttributes = {
+					CA9669291A40F7C8004F794B = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = JUXS6F9TT2;
+					};
+					CA96693E1A40F7C9004F794B = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = JUXS6F9TT2;
+						TestTargetID = CA9669291A40F7C8004F794B;
+					};
+				};
+			};
+			buildConfigurationList = CA9669251A40F7C8004F794B /* Build configuration list for PBXProject "S-Quack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA9669211A40F7C8004F794B;
+			productRefGroup = CA96692B1A40F7C8004F794B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9669291A40F7C8004F794B /* chat */,
+				CA96693E1A40F7C9004F794B /* chatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA9669281A40F7C8004F794B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA40F8211A670BF200380A53 /* bubble2Mine@2x.png in Resources */,
+				CA40F81F1A670BF200380A53 /* bubble2Someon@2x.png in Resources */,
+				CAF4AA511A70C6F20071B868 /* Media2.xcassets in Resources */,
+				CA478A221A75D65D006600B2 /* grayGround.png in Resources */,
+				CAE3045D1A60B0C700F1AF2F /* lock@3x.png in Resources */,
+				CA9680791A4B5C40001B9D9B /* S_Quack_Development.mobileprovision in Resources */,
+				CA40F8201A670BF200380A53 /* bubbleSomeone@2x.png in Resources */,
+				CA40F81E1A670BF200380A53 /* bubbleMine@2x.png in Resources */,
+				CA1296D41A78AD5F000F1C22 /* Screen Shot 2015-01-27 at 9.25.07 PM.png in Resources */,
+				CAE304571A5F632500F1AF2F /* camera1@2x.png in Resources */,
+				CA9669351A40F7C9004F794B /* Main.storyboard in Resources */,
+				CA96693A1A40F7C9004F794B /* LaunchScreen.xib in Resources */,
+				CA40F8231A68B2DF00380A53 /* selectionDot@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA96693D1A40F7C9004F794B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9669261A40F7C8004F794B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9669301A40F7C9004F794B /* AppDelegate.swift in Sources */,
+				CAB95EE81A55D1C0006C15D8 /* NavController.swift in Sources */,
+				CA8C25901A42393800FDEFED /* LockScreenViewController.swift in Sources */,
+				CA1E62EE1A54A823001A14A9 /* UIBubbleTypingTableViewCell.m in Sources */,
+				CA1E62EC1A54A823001A14A9 /* UIBubbleTableViewCell.m in Sources */,
+				CA1E62C91A51EACF001A14A9 /* MessagingViewController.swift in Sources */,
+				CAC9DE781A4108F9001ED668 /* ChatsViewController.swift in Sources */,
+				CA84985C1A4381DC00A34D5C /* EnterChatViewController.swift in Sources */,
+				CA1E62ED1A54A823001A14A9 /* UIBubbleHeaderTableViewCell.m in Sources */,
+				CA1E62EA1A54A823001A14A9 /* NSBubbleData.m in Sources */,
+				CA8C258C1A422D9800FDEFED /* LockMenuViewController.swift in Sources */,
+				CA478A201A7493B0006600B2 /* UIImage+ImageEffects.m in Sources */,
+				CA1E62DE1A535F7E001A14A9 /* SendChatInfoViewController.swift in Sources */,
+				CA84987F1A47633800A34D5C /* CreateChatViewController.swift in Sources */,
+				CA1E62EB1A54A823001A14A9 /* UIBubbleTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA96693B1A40F7C9004F794B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9669461A40F7C9004F794B /* chatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA9669411A40F7C9004F794B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9669291A40F7C8004F794B /* chat */;
+			targetProxy = CA9669401A40F7C9004F794B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA9669331A40F7C9004F794B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9669341A40F7C9004F794B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA9669381A40F7C9004F794B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9669391A40F7C9004F794B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA9669471A40F7C9004F794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9669481A40F7C9004F794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA96694A1A40F7C9004F794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = chat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "chat/chat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA96694B1A40F7C9004F794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = chat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "chat/chat-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CA96694D1A40F7C9004F794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = chatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chat.app/chat";
+			};
+			name = Debug;
+		};
+		CA96694E1A40F7C9004F794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = chatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chat.app/chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA9669251A40F7C8004F794B /* Build configuration list for PBXProject "S-Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9669471A40F7C9004F794B /* Debug */,
+				CA9669481A40F7C9004F794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9669491A40F7C9004F794B /* Build configuration list for PBXNativeTarget "chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA96694A1A40F7C9004F794B /* Debug */,
+				CA96694B1A40F7C9004F794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA96694C1A40F7C9004F794B /* Build configuration list for PBXNativeTarget "chatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA96694D1A40F7C9004F794B /* Debug */,
+				CA96694E1A40F7C9004F794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA9669221A40F7C8004F794B /* Project object */;
+}
